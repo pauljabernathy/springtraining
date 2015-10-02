@@ -11,8 +11,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration(classes = CDPlayerConfig.class)
 //@ContextConfiguration("beans.xml")
-//@ContextConfiguration("/Users/pabernathy/pworkspace/springtraining/beans.xml")
-@ContextConfiguration(locations = {"classpath:soundsystem/beans.xml"})
+@ContextConfiguration(locations = {"file:/Users/pabernathy/pworkspace/springtraining/beans.xml"})
+//@ContextConfiguration(locations = {"classpath:soundsystem/beans.xml"})
 public class CDPlayerTest {
 
     @Autowired
